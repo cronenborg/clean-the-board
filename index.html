@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clean The Board</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css?v=100015" rel="stylesheet">
+    <link href="css/main.css?v=100015" rel="stylesheet">
+  </head>
+  <body>
+	<div class="page-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-5 ">
+					<h3>Clean The Board <span id="victorylabel" class="label label-success hidden">GOOD!</span> <span id="endlabel" class="label label-danger hidden">THE END <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></span></h3>
+				</div>
+				<div class="col-md-2 col-md-offset-2 col-xs-12">
+					<h3>score <span id="score" class="label label-info">0</span></h3>
+				</div>
+				<div class="col-xs-6 col-md-2">
+					<h4>bonus <span id="bonus" class="label label-default">0</span></h4>
+				</div>
+				<div class="col-xs-6 col-md-1 text-right">
+					<h4>level <span id="level" class="label label-default">1</span></h4>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-xs-offset-0 col-md-6 col-md-offset-3">
+				<div class="table">
+					<table id="#game_table" class="table table-bordered">
+						<tr>
+							<td id="grid00" class="casella" data-row="0" data-col="0"><div class="event badge" id="pedina" draggable="true"><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></div></td>
+							<td id="grid01" class="casella" data-row="0" data-col="1"></td>
+							<td id="grid02" class="casella" data-row="0" data-col="2"></td>
+							<td id="grid03" class="casella" data-row="0" data-col="3"></td>
+							<td id="grid04" class="casella" data-row="0" data-col="4"></td>
+							<td id="grid05" class="casella" data-row="0" data-col="5"></td>
+						</tr>
+						<tr>
+							<td id="grid10" class="casella" data-row="1" data-col="0"></td>
+							<td id="grid11" class="casella" data-row="1" data-col="1"></td>
+							<td id="grid12" class="casella" data-row="1" data-col="2"></td>
+							<td id="grid13" class="casella" data-row="1" data-col="3"></td>
+							<td id="grid14" class="casella" data-row="1" data-col="4"></td>
+							<td id="grid15" class="casella" data-row="1" data-col="5"></td>
+						</tr>
+						<tr>
+							<td id="grid20" class="casella" data-row="2" data-col="0"></td>
+							<td id="grid21" class="casella" data-row="2" data-col="1"></td>
+							<td id="grid22" class="casella" data-row="2" data-col="2"></td>
+							<td id="grid23" class="casella" data-row="2" data-col="3"></td>
+							<td id="grid24" class="casella" data-row="2" data-col="4"></td>
+							<td id="grid25" class="casella" data-row="2" data-col="5"></td>
+						</tr>
+						<tr>
+							<td id="grid30" class="casella" data-row="3" data-col="0"></td>
+							<td id="grid31" class="casella" data-row="3" data-col="1"></td>
+							<td id="grid32" class="casella" data-row="3" data-col="2"></td>
+							<td id="grid33" class="casella" data-row="3" data-col="3"></td>
+							<td id="grid34" class="casella" data-row="3" data-col="4"></td>
+							<td id="grid35" class="casella" data-row="3" data-col="5"></td>
+						</tr>
+						<tr>
+							<td id="grid40" class="casella" data-row="4" data-col="0"></td>
+							<td id="grid41" class="casella" data-row="4" data-col="1"></td>
+							<td id="grid42" class="casella" data-row="4" data-col="2"></td>
+							<td id="grid43" class="casella" data-row="4" data-col="3"></td>
+							<td id="grid44" class="casella" data-row="4" data-col="4"></td>
+							<td id="grid45" class="casella" data-row="4" data-col="5"></td>
+						</tr>
+						<tr>
+							<td id="grid50" class="casella" data-row="5" data-col="0"></td>
+							<td id="grid51" class="casella" data-row="5" data-col="1"></td>
+							<td id="grid52" class="casella" data-row="5" data-col="2"></td>
+							<td id="grid53" class="casella" data-row="5" data-col="3"></td>
+							<td id="grid54" class="casella" data-row="5" data-col="4"></td>
+							<td id="grid55" class="casella" data-row="5" data-col="5"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js?v=100058"></script>
+  </body>
+</html>

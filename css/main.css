@@ -1,0 +1,64 @@
+.bg-grey {
+	background-color: #ffb84d;
+}
+
+table,tr {
+	position: relative;
+}
+
+td {
+	width: 16.666%!important;
+	min-width: 16.666%!important;
+	max-width: 16.666%!important;
+	height: 92px!important;
+	min-height: 92px!important;
+	max-height: 92px!important;
+	font-size: 24px!important;
+	line-height:60px!important;
+	text-align: center;
+}
+.page-header {
+    margin: 0px 0 0px;
+}
+
+#pedina {
+	width: 90%;
+	font-size: 28px;
+	line-height:60px;
+}
+
+#pedina>span {
+	font-size: 28px;
+	line-height:60px;
+}
+
+.badge {
+	background-color: #2e6da4;
+}
+
+.ui-effects-transfer {
+	border: 1px #ccc solid;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	td {
+		height: 55px!important;
+		min-height: 55px!important;
+		max-height: 55px!important;
+		font-size: 20px!important;
+		line-height:25px!important;
+	}
+	#pedina {
+		font-size: 18px;
+		line-height:25px;
+	}
+
+	#pedina>span {
+		font-size: 18px;
+		line-height:25px;
+	}
+
+}
